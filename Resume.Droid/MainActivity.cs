@@ -1,13 +1,12 @@
-﻿using System;
-using Android;
-using Android.App;
+﻿using Android.App;
 using Android.OS;
-using Android.Runtime;
 using Android.Support.Design.Widget;
 using Android.Support.V4.View;
 using Android.Support.V4.Widget;
 using Android.Support.V7.App;
 using Android.Views;
+using Resume.Droid.Fragments;
+using System;
 
 namespace Resume.Droid
 {
@@ -18,11 +17,12 @@ namespace Resume.Droid
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.activity_main);
+
             Android.Support.V7.Widget.Toolbar toolbar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar);
             SetSupportActionBar(toolbar);
 
-            FloatingActionButton fab = FindViewById<FloatingActionButton>(Resource.Id.fab);
-            fab.Click += FabOnClick;
+            //FloatingActionButton fab = FindViewById<FloatingActionButton>(Resource.Id.fab);
+            //fab.Click += FabOnClick;
 
             DrawerLayout drawer = FindViewById<DrawerLayout>(Resource.Id.drawer_layout);
             ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, toolbar, Resource.String.navigation_drawer_open, Resource.String.navigation_drawer_close);
@@ -31,6 +31,9 @@ namespace Resume.Droid
 
             NavigationView navigationView = FindViewById<NavigationView>(Resource.Id.nav_view);
             navigationView.SetNavigationItemSelectedListener(this);
+            
+            // Load initial fragment
+            SupportFragmentManager.BeginTransaction().Add(Resource.Id.content_frame, new HomeFragment()).Commit();
         }
 
         public override void OnBackPressed()
@@ -74,29 +77,40 @@ namespace Resume.Droid
         {
             int id = item.ItemId;
 
+            Android.Support.V4.App.Fragment fragment = null;
+
             if (id == Resource.Id.nav_home)
             {
-
-            }
-            else if (id == Resource.Id.nav_skills)
-            {
-
+                fragment = new HomeFragment();
             }
             else if (id == Resource.Id.nav_education)
             {
-
+                fragment = new EducationFragment();
+            }
+            else if (id == Resource.Id.nav_skills)
+            {
+                fragment = new SkillsFragment();
             }
             else if (id == Resource.Id.nav_experience)
             {
-
+                fragment = new ExperienceFragment();
             }
             else if (id == Resource.Id.nav_share)
             {
-
+                // TODO: Invoke share intent
             }
             else if (id == Resource.Id.nav_contact)
             {
+                // TODO: Invoke email intent
+            }
+            else
+            {
+                fragment = new HomeFragment();
+            }
 
+            if(fragment != null)
+            {
+                SupportFragmentManager.BeginTransaction().Replace(Resource.Id.content_frame, fragment).Commit();
             }
 
             DrawerLayout drawer = FindViewById<DrawerLayout>(Resource.Id.drawer_layout);
