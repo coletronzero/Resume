@@ -339,6 +339,18 @@ namespace Resume.Droid
 			// aapt resource value: 0x7f0100a5
 			public const int checkedTextViewStyle = 2130772133;
 			
+			// aapt resource value: 0x7f01015b
+			public const int civ_border_color = 2130772315;
+			
+			// aapt resource value: 0x7f01015c
+			public const int civ_border_overlay = 2130772316;
+			
+			// aapt resource value: 0x7f01015a
+			public const int civ_border_width = 2130772314;
+			
+			// aapt resource value: 0x7f01015d
+			public const int civ_fill_color = 2130772317;
+			
 			// aapt resource value: 0x7f0100d5
 			public const int closeIcon = 2130772181;
 			
@@ -2242,26 +2254,26 @@ namespace Resume.Droid
 			// aapt resource value: 0x7f020053
 			public const int avd_hide_password = 2130837587;
 			
-			// aapt resource value: 0x7f020071
-			public const int avd_hide_password_1 = 2130837617;
+			// aapt resource value: 0x7f020075
+			public const int avd_hide_password_1 = 2130837621;
 			
-			// aapt resource value: 0x7f020072
-			public const int avd_hide_password_2 = 2130837618;
+			// aapt resource value: 0x7f020076
+			public const int avd_hide_password_2 = 2130837622;
 			
-			// aapt resource value: 0x7f020073
-			public const int avd_hide_password_3 = 2130837619;
+			// aapt resource value: 0x7f020077
+			public const int avd_hide_password_3 = 2130837623;
 			
 			// aapt resource value: 0x7f020054
 			public const int avd_show_password = 2130837588;
 			
-			// aapt resource value: 0x7f020074
-			public const int avd_show_password_1 = 2130837620;
+			// aapt resource value: 0x7f020078
+			public const int avd_show_password_1 = 2130837624;
 			
-			// aapt resource value: 0x7f020075
-			public const int avd_show_password_2 = 2130837621;
+			// aapt resource value: 0x7f020079
+			public const int avd_show_password_2 = 2130837625;
 			
-			// aapt resource value: 0x7f020076
-			public const int avd_show_password_3 = 2130837622;
+			// aapt resource value: 0x7f02007a
+			public const int avd_show_password_3 = 2130837626;
 			
 			// aapt resource value: 0x7f020055
 			public const int design_bottom_navigation_item_background = 2130837589;
@@ -2285,67 +2297,79 @@ namespace Resume.Droid
 			public const int ic_menu_camera = 2130837595;
 			
 			// aapt resource value: 0x7f02005c
-			public const int ic_menu_gallery = 2130837596;
+			public const int ic_menu_dashboard = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
-			public const int ic_menu_manage = 2130837597;
+			public const int ic_menu_gallery = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
-			public const int ic_menu_send = 2130837598;
+			public const int ic_menu_manage = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int ic_menu_share = 2130837599;
+			public const int ic_menu_school = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public const int ic_menu_slideshow = 2130837600;
+			public const int ic_menu_send = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public const int navigation_empty_icon = 2130837601;
+			public const int ic_menu_share = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int notification_action_background = 2130837602;
+			public const int ic_menu_skills = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int notification_bg = 2130837603;
+			public const int ic_menu_slideshow = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public const int notification_bg_low = 2130837604;
+			public const int ic_menu_work = 2130837604;
 			
 			// aapt resource value: 0x7f020065
-			public const int notification_bg_low_normal = 2130837605;
+			public const int navigation_empty_icon = 2130837605;
 			
 			// aapt resource value: 0x7f020066
-			public const int notification_bg_low_pressed = 2130837606;
+			public const int notification_action_background = 2130837606;
 			
 			// aapt resource value: 0x7f020067
-			public const int notification_bg_normal = 2130837607;
+			public const int notification_bg = 2130837607;
 			
 			// aapt resource value: 0x7f020068
-			public const int notification_bg_normal_pressed = 2130837608;
+			public const int notification_bg_low = 2130837608;
 			
 			// aapt resource value: 0x7f020069
-			public const int notification_icon_background = 2130837609;
-			
-			// aapt resource value: 0x7f02006f
-			public const int notification_template_icon_bg = 2130837615;
-			
-			// aapt resource value: 0x7f020070
-			public const int notification_template_icon_low_bg = 2130837616;
+			public const int notification_bg_low_normal = 2130837609;
 			
 			// aapt resource value: 0x7f02006a
-			public const int notification_tile_bg = 2130837610;
+			public const int notification_bg_low_pressed = 2130837610;
 			
 			// aapt resource value: 0x7f02006b
-			public const int notify_panel_notification_icon_bg = 2130837611;
+			public const int notification_bg_normal = 2130837611;
 			
 			// aapt resource value: 0x7f02006c
-			public const int side_nav_bar = 2130837612;
+			public const int notification_bg_normal_pressed = 2130837612;
 			
 			// aapt resource value: 0x7f02006d
-			public const int tooltip_frame_dark = 2130837613;
+			public const int notification_icon_background = 2130837613;
+			
+			// aapt resource value: 0x7f020073
+			public const int notification_template_icon_bg = 2130837619;
+			
+			// aapt resource value: 0x7f020074
+			public const int notification_template_icon_low_bg = 2130837620;
 			
 			// aapt resource value: 0x7f02006e
-			public const int tooltip_frame_light = 2130837614;
+			public const int notification_tile_bg = 2130837614;
+			
+			// aapt resource value: 0x7f02006f
+			public const int notify_panel_notification_icon_bg = 2130837615;
+			
+			// aapt resource value: 0x7f020070
+			public const int side_nav_bar = 2130837616;
+			
+			// aapt resource value: 0x7f020071
+			public const int tooltip_frame_dark = 2130837617;
+			
+			// aapt resource value: 0x7f020072
+			public const int tooltip_frame_light = 2130837618;
 			
 			static Drawable()
 			{
@@ -2603,9 +2627,6 @@ namespace Resume.Droid
 			// aapt resource value: 0x7f08005f
 			public const int image = 2131230815;
 			
-			// aapt resource value: 0x7f08009d
-			public const int imageView = 2131230877;
-			
 			// aapt resource value: 0x7f0800ac
 			public const int info = 2131230892;
 			
@@ -2651,23 +2672,23 @@ namespace Resume.Droid
 			// aapt resource value: 0x7f080028
 			public const int multiply = 2131230760;
 			
-			// aapt resource value: 0x7f0800b5
-			public const int nav_camera = 2131230901;
+			// aapt resource value: 0x7f0800ba
+			public const int nav_contact = 2131230906;
 			
 			// aapt resource value: 0x7f0800b6
-			public const int nav_gallery = 2131230902;
+			public const int nav_education = 2131230902;
 			
 			// aapt resource value: 0x7f0800b8
-			public const int nav_manage = 2131230904;
+			public const int nav_experience = 2131230904;
 			
-			// aapt resource value: 0x7f0800ba
-			public const int nav_send = 2131230906;
+			// aapt resource value: 0x7f0800b5
+			public const int nav_home = 2131230901;
 			
 			// aapt resource value: 0x7f0800b9
 			public const int nav_share = 2131230905;
 			
 			// aapt resource value: 0x7f0800b7
-			public const int nav_slideshow = 2131230903;
+			public const int nav_skills = 2131230903;
 			
 			// aapt resource value: 0x7f08008c
 			public const int nav_view = 2131230860;
@@ -2704,6 +2725,9 @@ namespace Resume.Droid
 			
 			// aapt resource value: 0x7f08004d
 			public const int pin = 2131230797;
+			
+			// aapt resource value: 0x7f08009d
+			public const int profile_image = 2131230877;
 			
 			// aapt resource value: 0x7f080006
 			public const int progress_circular = 2131230726;
@@ -3205,13 +3229,16 @@ namespace Resume.Droid
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int ic_launcher = 2130903040;
+			public const int ic_comic = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int ic_launcher_foreground = 2130903041;
+			public const int ic_launcher = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int ic_launcher_round = 2130903042;
+			public const int ic_launcher_foreground = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int ic_launcher_round = 2130903043;
 			
 			static Mipmap()
 			{
@@ -5404,6 +5431,24 @@ namespace Resume.Droid
 			
 			// aapt resource value: 0
 			public const int ButtonBarLayout_allowStacking = 0;
+			
+			public static int[] CircleImageView = new int[] {
+					2130772314,
+					2130772315,
+					2130772316,
+					2130772317};
+			
+			// aapt resource value: 1
+			public const int CircleImageView_civ_border_color = 1;
+			
+			// aapt resource value: 2
+			public const int CircleImageView_civ_border_overlay = 2;
+			
+			// aapt resource value: 0
+			public const int CircleImageView_civ_border_width = 0;
+			
+			// aapt resource value: 3
+			public const int CircleImageView_civ_fill_color = 3;
 			
 			public static int[] CollapsingToolbarLayout = new int[] {
 					2130771980,

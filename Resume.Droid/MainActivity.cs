@@ -74,19 +74,19 @@ namespace Resume.Droid
         {
             int id = item.ItemId;
 
-            if (id == Resource.Id.nav_camera)
-            {
-                // Handle the camera action
-            }
-            else if (id == Resource.Id.nav_gallery)
+            if (id == Resource.Id.nav_home)
             {
 
             }
-            else if (id == Resource.Id.nav_slideshow)
+            else if (id == Resource.Id.nav_skills)
             {
 
             }
-            else if (id == Resource.Id.nav_manage)
+            else if (id == Resource.Id.nav_education)
+            {
+
+            }
+            else if (id == Resource.Id.nav_experience)
             {
 
             }
@@ -94,7 +94,7 @@ namespace Resume.Droid
             {
 
             }
-            else if (id == Resource.Id.nav_send)
+            else if (id == Resource.Id.nav_contact)
             {
 
             }
