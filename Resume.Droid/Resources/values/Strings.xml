@@ -1,6 +1,8 @@
 <resources>
-    <string name="app_name">Resume.Droid</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="action_settings">Settings</string>
+   <string name="app_name">Resume.Droid</string>
+   <string name="navigation_drawer_open">Open navigation drawer</string>
+   <string name="navigation_drawer_close">Close navigation drawer</string>
+   <string name="action_settings">Settings</string>
+   <string name="skill">Skills</string>
+   <string name="bio">Outdoor enthusiest by day, software developer by night.  I have been building applications for the past 7 years.  I specialize in building cross platform mobile applications using Xamarin and application servers using .NET. </string>
 </resources>
